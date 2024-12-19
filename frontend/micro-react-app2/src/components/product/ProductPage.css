@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Products Section */
+.products-section {
+  background-color: #f8f9fa;
+  padding: 50px 15px; /* Added padding for mobile */
+  /* margin-top: 80px; */
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 2rem; /* Adjusted for responsiveness */
+  margin: 0;
+}
+
+.section-title p {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-top: 10px;
+}
+
+/* Product Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Product Card */
+.product-card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Default behavior */
+  gap: 1.5rem;
+
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image */
+/* Image Container */
+.product-img-container {
+  width: 100%;
+  height: 200px; /* Increased height for better visibility */
+  overflow: hidden;
+  position: relative;
+}
+
+.product-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-bottom: 1px solid #e0e0e0;
+  transition: transform 0.3s ease;
+}
+
+.product-img-container img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Product Info */
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-description {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+.product-stock {
+  font-size: 0.8rem;
+  color: #28a745;
+}
+
+.product-stock.out-of-stock {
+  color: #dc3545;
+}
+
+.product-category {
+  color: #495057;
+  font-size: 0.8rem;
+}
+
+/* Button */
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Filter Section */
+.filter-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#category-filter {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* Common Styles for All Form Elements */
+
+/* Label Styling */
+label {
+  font-weight: 600; /* Bold text for labels */
+  font-size: 1rem; /* Standard font size */
+  color: #333; /* Dark text for readability */
+  margin-bottom: 0.5rem; /* Space between label and form element */
+  display: block; /* Ensures labels are block-level elements */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-title p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Media Queries for Large Screens */
+@media (min-width: 992px) { /* lg breakpoint */
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr); /* Exactly 3 cards per row */
+  }
+}
+
+/* Media Queries for Medium Screens */
+@media (max-width: 992px) and (min-width: 768px) { /* md breakpoint */
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+}

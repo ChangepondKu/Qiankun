@@ -1,0 +1,35 @@
+.about-us-section {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 3rem 0;
+  }
+  
+  .about-us-section h1,
+  .about-us-section h2 {
+    color: #007bff; /* Primary Bootstrap Blue */
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    color: #343a40;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    border-radius: 0.25rem;
+  }
+  
