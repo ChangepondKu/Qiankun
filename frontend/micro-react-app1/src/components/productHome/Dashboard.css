@@ -1,0 +1,183 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f5f7fb;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.notification-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    background-color: #8884d8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Stat Cards */
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.stat-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9; /* Optional: Light gray background on hover */
+}
+
+.stat-card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf5fb;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.stat-card-icon svg {
+    color: #3498db; /* Matches the text color for consistency */
+    width: 24px;
+    height: 24px;
+}
+
+.stat-card-text {
+    flex-grow: 1;
+}
+
+.stat-card-text h5 {
+    margin: 0;
+    font-size: 16px;
+    color: #2c3e50;
+    text-align: left;
+}
+
+.stat-card-text p {
+    margin: 5px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3498db;
+    text-align: left;
+}
+
+
+/* Summary Panel */
+.summary-panel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary-panel h5 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.summary-panel p {
+    font-size: 24px;
+    color: #4caf50;
+}
+
+.activity-log ul,
+.top-categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.activity-log li,
+.top-categories li {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Enhanced Card Hover Effects */
+.product-card:hover {
+    transform: translateY(-10px); /* Lift the card slightly */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  /* For smaller devices: Ensure responsiveness */
+  @media (max-width: 576px) {
+    .product-card {
+      margin: 0 auto; /* Center cards in smaller screens */
+    }
+  
+    img.card-img-top {
+      height: 150px; /* Adjust image height */
+    }
+  }
+  
+  /* Consistent Button Hover Effect */
+  .product-card .btn-primary:hover {
+    background-color: #025aa5; /* Darker blue */
+    color: #ffffff; /* White text */
+    box-shadow: 0px 4px 10px rgba(0, 37, 69, 0.5); /* Glow effect */
+  }
+  
+
+/* Responsive */
+@media (max-width: 992px) {
+    .dashboard-content .row {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,158 @@
+/* Full-page styling */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f9;
+}
+
+/* Card styling */
+.login-card {
+  width: 90%; /* Ensure it adapts to smaller screens */
+  max-width: 1200px; /* Maximum width for larger screens */
+  height: 85vh; /* Occupies 80% of the viewport height */
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  overflow: hidden;
+  background-color: white;
+}
+
+.image-section {
+  flex: 1;
+  background-image: url('../../assest/images/changepond.jpg'); /* Ensure the image path is correct */
+  background-size: auto 100%; /* Ensures the full image is displayed */
+  background-position: center; /* Centers the image within the section */
+  background-repeat: no-repeat; /* Avoids tiling the image */
+  background-color: #f4f4f4; /* Adds a fallback background color */
+  border-radius: 10px;
+}
+
+
+/* Login form styling */
+.login-form-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  background-color: #ffffff;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Header styling */
+.login-form h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Input group styling */
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group-text {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  padding: 0.75rem;
+  border-left: none;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.btn-primary:disabled {
+  background-color: #ccc;
+  border: none;
+}
+
+/* Error message styling */
+.alert-danger {
+  margin-top: 1rem;
+  color: #f44336;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .login-card {
+      flex-direction: column; /* Stack image and form */
+      height: auto;
+  }
+
+  .image-section {
+      height: 200px; /* Adjust image height on smaller screens */
+  }
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-link p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.signup-link button {
+  color: #007bff;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.signup-link button:hover {
+  text-decoration: underline;
+}
+
+.text-center img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Error Message Styling */
+.error-message {
+  color: #ff0000; /* Bright red for visibility */
+  font-size: 0.9rem; /* Slightly smaller for subtlety */
+  font-weight: 500; /* Medium weight for emphasis */
+  margin: 0.5rem 0; /* Add some spacing */
+  text-align: left; /* Align text to the left */
+  padding: 0.2rem 0.5rem; /* Space around text for readability */
+  background-color: #ffe6e6; /* Light red background */
+  border: 1px solid #ffcccc; /* Subtle border for distinction */
+  border-radius: 4px; /* Rounded corners for modern look */
+  display: inline-block; /* So it doesn’t stretch unnecessarily */
+}
