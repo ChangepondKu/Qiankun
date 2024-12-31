@@ -87,7 +87,9 @@ async function updateUser(req, res) {
     const email = req.user.email;
     const updateData = {
       fullname: req.body.fullname,
-      password: req.body.password
+      address:req.body.address,
+      profile_pic:req.body.profile_pic,
+      phone:req.body.phone
     };
 
     logger.info('User update attempt', { email });
@@ -101,7 +103,10 @@ async function updateUser(req, res) {
       token: newToken,
       user: {
         email: updatedUser.email,
-        fullname: updatedUser.fullname
+        fullname: updatedUser.fullname,
+        phone:updateData.phone,
+        address:updatedUser.address,
+        profile_pic:updatedUser.profile_pic
       }
     });
   } catch (error) {

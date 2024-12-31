@@ -56,12 +56,30 @@ async function updateUserDetails(email, updateData) {
       paramCount++;
     }
 
-    if (updateData.password) {
-      const hashedPassword = await bcrypt.hash(updateData.password, 10);
-      updates.push(`password = $${paramCount}`);
-      values.push(hashedPassword);
+    if(updateData.phone){
+      updates.push(`phone = $${paramCount}`);
+      values.push(updateData.phone);
       paramCount++;
     }
+
+    if(updateData.address){
+      updates.push(`address = $${paramCount}`);
+      values.push(updateData.address);
+      paramCount++;
+    }
+
+    if(updateData.profile_pic){
+      updates.push(`profile_pic = $${paramCount}`);
+      values.push(updateData.profile_pic);
+      paramCount++
+    }
+
+    // if (updateData.password) {
+    //   const hashedPassword = await bcrypt.hash(updateData.password, 10);
+    //   updates.push(`password = $${paramCount}`);
+    //   values.push(hashedPassword);
+    //   paramCount++;
+    // }
 
     if (updates.length === 0) {
       throw new Error('No valid update data provided');
@@ -72,7 +90,7 @@ async function updateUserDetails(email, updateData) {
       UPDATE users 
       SET ${updates.join(', ')} 
       WHERE email = $${paramCount}
-      RETURNING id, email, fullname
+      RETURNING id, email, fullname, phone, profile_pic, address
     `;
 
     const result = await db.query(query, values);
