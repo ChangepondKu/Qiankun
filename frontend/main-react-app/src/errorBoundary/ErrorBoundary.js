@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
 
 class ErrorBoundary extends Component {
-  state = {
-    hasError: false,
-    error: null,
-  };
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, errorMessage: '' };
+  }
 
   static getDerivedStateFromError(error) {
-    return { hasError: true, error };
+    // Update state so the next render shows the fallback UI.
+    return { hasError: true, errorMessage: error.message };
   }
 
   componentDidCatch(error, errorInfo) {
-    console.error("Error caught in ErrorBoundary:", error);
-    // You could log the error to an error monitoring service here
+    // Log the error if needed
+    console.error("Error caught in Error Boundary:", error, errorInfo);
   }
 
   render() {
     if (this.state.hasError) {
       return (
-        <div>
-          <h1>Something went wrong while loading the application.</h1>
-          <p>Please try again later or contact support.</p>
+        <div className="error-page">
+          <h1>Something went wrong!</h1>
+          <p>{this.state.errorMessage || "An error occurred."}</p>
         </div>
       );
     }

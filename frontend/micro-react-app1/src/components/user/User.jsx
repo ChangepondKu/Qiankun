@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './User.css';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import { updateUser } from '../api/apiRepository';
+import Cookies from 'js-cookie';
 
 export const User = () => {
   const [formData, setFormData] = useState({
@@ -18,7 +20,7 @@ export const User = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const userState = useSelector((state) => state?.app?.user);
-
+ const state=useSelector((state)=>state?.app)
   useEffect(() => {
     if (userState) {
       setFormData({ ...userState });
@@ -46,12 +48,17 @@ export const User = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    dispatch({ type: 'UPDATE_USER_DATA', payload: formData })
-    // Show the success modal and exit edit mode
-    setIsModalVisible(true);
-    setIsEditing(false);
+    // const authToken = Cookies.get('authToken');
+    const authToken = state?.token;
+    const response = await updateUser({ fullname: formData?.fullname, phone: formData?.phone,address:formData?.address, profile_pic: formData?.profilePicture }, authToken);
+    if (response?.message === 'User updated successfully') {
+      dispatch({ type: 'UPDATE_USER_DATA', payload: {...response?.user,profilePicture:response?.user?.profile_pic} });
+      // Show the success modal and exit edit mode
+      setIsModalVisible(true);
+      setIsEditing(false);
+    }
   };
 
 

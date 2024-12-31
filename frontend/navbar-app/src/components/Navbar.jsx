@@ -4,15 +4,17 @@ import { Home, Briefcase, Mail, User, LogOut, Box, Grid, ShoppingBag } from 'luc
 import { navigate } from '@reach/router';
 import { useDispatch, useSelector } from 'react-redux';
 import './Navbar.css';
+import Cookies from 'js-cookie';
 
 function Navbar() {
   const userState = useSelector((state) => state?.app?.user?.fullname);
   const dispatch = useDispatch();
 
   const handleLogOut = () => {
-    localStorage.removeItem('isLoggedIn');
+    sessionStorage.removeItem('isLoggedIn');
+    // Cookies.remove('authToken')
     dispatch({ type: 'LOGOUT_USER' });
-    window.location.reload();
+    // window.location.reload();
     navigate('/login');
     console.log('Logged out');
   };

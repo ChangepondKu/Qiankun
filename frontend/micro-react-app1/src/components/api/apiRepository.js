@@ -20,7 +20,7 @@ export const validateUser = async (payload) => {
     try {
         // Send POST request to the API
         const response = await axios.post(
-            `http://localhost:7878/api/auth/login`, // Append endpoint explicitly
+            `${API_URL}/api/auth/login`, // Append endpoint explicitly
             payload,
             {
                 headers: {
@@ -47,5 +47,23 @@ export const validateUser = async (payload) => {
             // Something else went wrong during setup
             throw new Error("Error setting up the request.");
         }
+    }
+};
+
+export const updateUser = async (payload, token) => {
+    try {
+        const response = await axios.put(
+            `${API_URL}/api/auth/update`,
+            payload,
+            {
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                    Accept: 'application/json',
+                }
+            }
+        );
+        return response.data;
+    } catch (error) {
+        console.log(error);
     }
 };

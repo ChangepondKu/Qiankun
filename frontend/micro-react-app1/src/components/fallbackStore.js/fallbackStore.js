@@ -2,6 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage'; // Use localStorage for persistence
 import { combineReducers } from 'redux';
+import sessionStorage from 'redux-persist/es/storage/session';
 
 // Initial state
 const initialState = {
@@ -42,7 +43,7 @@ const combinedReducer = combineReducers({
 // Persist configuration
 const persistConfig = {
   key: 'root',
-  storage,
+  storage:sessionStorage,
   whitelist: ['app'], // Persist only the app state
 };
 

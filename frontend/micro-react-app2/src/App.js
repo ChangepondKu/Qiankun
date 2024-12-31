@@ -7,14 +7,14 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import AboutUsPage from './components/aboutus/AboutUsPage';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import Cookies from 'js-cookie';
 
 function App({user}) {
   const dispatch=useDispatch();
   useEffect(()=>{
     if (user?.message === 'Login successful') {
       dispatch({ type: 'LOGIN_SUCCESS', payload: user });
-    } else {
-  
+      // Cookies.set('authToken', JSON.stringify(user?.token), { expires: user?.exp_hr / 24 });
     }
   },[])
   return (

@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Mail, Lock, User, Phone } from 'lucide-react';
 import { useDispatch } from 'react-redux';
 import { registerUser, validateUser } from '../repository/apiRepository';
+import Cookies from 'js-cookie';
 
 export const LoginPage = ({ handleLoginSuccess }) => {
     const [isSignUp, setIsSignUp] = useState(false); // Toggle between Login and Sign Up
@@ -45,7 +46,7 @@ export const LoginPage = ({ handleLoginSuccess }) => {
                 console.log(response);
                 if (response?.status === 201 && response?.statusText === 'Created') {
                     console.log("TRUE");
-                    alert('Sign Up successful! You can now log in.');
+                    // alert('Sign Up successful! You can now log in.');
                     setIsSignUp(false);
                     setName('');
                     setEmail('');
@@ -57,6 +58,7 @@ export const LoginPage = ({ handleLoginSuccess }) => {
                     if (rememberMe) {
                         localStorage.setItem('email', email); // Save email for remember me functionality
                     }
+                    // Cookies.set('authToken', JSON.stringify(response?.token), { expires: response?.exp_hr / 24 })
                     handleLoginSuccess();
                     dispatch({ type: 'LOGIN_SUCCESS', payload: response });
                     navigate('/app1');

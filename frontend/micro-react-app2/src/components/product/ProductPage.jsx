@@ -4,6 +4,7 @@ import "./ProductPage.css";
 import { createProduct, deleteProduct, getAllProducts, updateProduct } from "../api/apiRepository";
 import { DeleteIcon, Edit, Trash } from "lucide-react"
 import { dummyProductData } from "../fallbackStore/dummyProductData";
+import Cookies from "js-cookie";
 
 export const ProductPage = () => {
   const fileInputRef = useRef(null);
@@ -75,6 +76,7 @@ export const ProductPage = () => {
   // Fetch Products
   const getProductList = async () => {
     const authToken = state?.token;
+    // const authToken = Cookies.get('authToken');
     const productList = await getAllProducts(authToken);
     if (productList?.length > 0) {
       setProducts(productList);
@@ -152,7 +154,7 @@ export const ProductPage = () => {
 
   const handleSaveProduct = async () => {
     const authToken = state?.token;
-
+    // const authToken = Cookies.get('authToken');
     if (!editedProduct?.name || !editedProduct?.price) {
       return;
     }
@@ -190,9 +192,10 @@ export const ProductPage = () => {
   };
 
   const handleDelete = async (productId) => {
-    const token = state?.token; // Retrieve the token from storage
+    const authToken = state?.token; // Retrieve the token from storage
+    // const authToken = Cookies.get('authToken');
     try {
-      await deleteProduct(productId, token);
+      await deleteProduct(productId, authToken);
       setIsProductChanged(!isProductChanged);
 
     } catch (error) {
@@ -286,7 +289,7 @@ export const ProductPage = () => {
                 <div className="product-info">
                   <h3 className="product-title">{product?.name}</h3>
                   <p className="product-description">{product?.description}</p>
-                  <p className="product-price">₹{product?.price}</p>
+                  <p className="product-price">₹{Math.round(product?.price)}</p>
                   <p
                     className={`product-stock ${product?.stock === 0 ? "out-of-stock" : ""
                       }`}

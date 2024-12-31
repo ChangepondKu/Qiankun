@@ -23,8 +23,8 @@ function App() {
   };
 
   return (
-    //  <Navbar/>
-    <Sidebar/>
+     <Navbar/>
+    // <Sidebar/>
   );
 }
 
