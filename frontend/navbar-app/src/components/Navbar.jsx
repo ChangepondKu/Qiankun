@@ -14,7 +14,7 @@ function Navbar() {
     sessionStorage.removeItem('isLoggedIn');
     // Cookies.remove('authToken')
     dispatch({ type: 'LOGOUT_USER' });
-    // window.location.reload();
+    window.location.reload();
     navigate('/login');
     console.log('Logged out');
   };

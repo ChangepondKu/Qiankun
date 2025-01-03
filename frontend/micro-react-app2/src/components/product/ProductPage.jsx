@@ -2,9 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { useSelector } from "react-redux";
 import "./ProductPage.css";
 import { createProduct, deleteProduct, getAllProducts, updateProduct } from "../api/apiRepository";
-import { DeleteIcon, Edit, Trash } from "lucide-react"
+import { Edit, Trash } from "lucide-react"
 import { dummyProductData } from "../fallbackStore/dummyProductData";
-import Cookies from "js-cookie";
 
 export const ProductPage = () => {
   const fileInputRef = useRef(null);
@@ -27,7 +26,45 @@ export const ProductPage = () => {
   const [sortOption, setSortOption] = useState(""); // State for sort option
   const [isDummyProduct, setIsDummyProduct] = useState(false);
   const [isProductCreation, setIsProductCreation] = useState(false);
- 
+
+  const ws = useRef(null);
+  useEffect(() => {
+    const websocketURL = 'ws://localhost:9123';
+    ws.current = new WebSocket(websocketURL);
+
+    ws.current.onopen = () => {
+      console.log('WebSocket connection established');
+    };
+
+    ws.current.onmessage = (event) => {
+      try {
+        const websocketResponse = JSON.parse(event.data);
+        console.log(websocketResponse);
+        if (websocketResponse?.data?.length > 0) {
+          setProducts(websocketResponse.data);
+        }
+      } catch (error) {
+        console.error('Error parsing WebSocket message:', error);
+      }
+    };
+
+    ws.current.onerror = (error) => {
+      console.error('WebSocket error:', error);
+    };
+
+    ws.current.onclose = (event) => {
+      console.log('WebSocket connection closed:', event.reason || 'Unknown reason');
+    };
+
+    // Cleanup WebSocket on component unmount
+    return () => {
+      if (ws.current) {
+        ws.current.close();
+        ws.current = null;
+      }
+    };
+  }, []);
+
   // Handle File Upload
   const handleFileUpload = (e) => {
     const file = e.target.files[0];

@@ -4,8 +4,6 @@ export const userCredentail={
 }
 
 
-
-
-
-
+export const host='localhost';
+// export const host='localhost';
 

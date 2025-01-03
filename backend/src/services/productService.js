@@ -1,5 +1,6 @@
 const db = require('../config/database');
 const logger = require('../config/logger');
+const { broadcastUpdate } = require('../websocket/wsServer');
 
 async function createProduct(productData) {
   const { name, description, price, stock, category, image_url } = productData;
@@ -11,6 +12,8 @@ async function createProduct(productData) {
        RETURNING *`,
       [name, description, price, stock, category, image_url]
     );
+    const updatedProducts=result.rows[0]
+    broadcastUpdate('product_created',updatedProducts);
     return result.rows[0];
   } catch (error) {
     logger.error('Database error during product creation', { error: error.message });
@@ -50,6 +53,8 @@ async function updateProduct(id, productData) {
        RETURNING *`,
       [name, description, price, stock, category, image_url, id]
     );
+    const updatedProducts=result.rows[0]
+    broadcastUpdate('product_updated',updatedProducts);
     return result.rows[0];
   } catch (error) {
     logger.error('Database error while updating product', { error: error.message });
@@ -63,6 +68,10 @@ async function deleteProduct(id) {
       'DELETE FROM products WHERE id = $1 RETURNING id',
       [id]
     );
+    if (result.rows[0]) {
+    const updatedProducts=result.rows[0]
+    broadcastUpdate('product_created',updatedProducts);
+    }
     return result.rows[0];
   } catch (error) {
     logger.error('Database error while deleting product', { error: error.message });

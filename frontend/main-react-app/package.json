@@ -11,6 +11,7 @@
     "bootstrap": "^5.3.3",
     "deeps": "^1.4.5",
     "framer-motion": "^11.12.0",
+    "js-cookie": "^3.0.5",
     "lucide-react": "^0.462.0",
     "peer": "^1.0.2",
     "qiankun": "^2.10.16",
@@ -31,7 +32,7 @@
     "start:navbar": "npm start --prefix ../navbar-app",
     "start:footer": "npm start --prefix ../footer-app",
     "start:all": "concurrently \"npm run start:main\" \"npm run start:micro1\" \"npm run start:micro2\" \"npm run start:micro3\" \"npm run start:navbar\" \"npm run start:footer\""
-  },  
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

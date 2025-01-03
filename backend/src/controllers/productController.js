@@ -1,6 +1,7 @@
 const { validationResult } = require('express-validator');
 const productService = require('../services/productService');
 const logger = require('../config/logger');
+const { broadcastUpdate } = require('../websocket/wsServer');
 
 async function createProduct(req, res) {
   try {
@@ -9,22 +10,26 @@ async function createProduct(req, res) {
       return res.status(400).json({ errors: errors.array() });
     }
 
-    // Log the user who is creating the product
-    logger.info('Product creation attempt', { 
+    logger.info('Product creation attempt', {
       userId: req.user.id,
-      email: req.user.email 
+      email: req.user.email
     });
 
     const product = await productService.createProduct(req.body);
-    logger.info('Product created successfully', { 
+    logger.info('Product created successfully', {
       productId: product.id,
-      createdBy: req.user.email 
+      createdBy: req.user.email
     });
+
+    // Broadcast the updated product list
+    const products = await productService.getAllProducts();
+    broadcastUpdate('product_created',products);
+
     res.status(201).json(product);
   } catch (error) {
-    logger.error('Error creating product', { 
+    logger.error('Error creating product', {
       error: error.message,
-      userId: req.user.id 
+      userId: req.user.id
     });
     res.status(500).json({ error: 'Error creating product' });
   }
@@ -67,26 +72,31 @@ async function updateProduct(req, res) {
       return res.status(400).json({ errors: errors.array() });
     }
 
-    logger.info('Product update attempt', { 
+    logger.info('Product update attempt', {
       userId: req.user.id,
-      productId: req.params.id 
+      productId: req.params.id
     });
 
     const product = await productService.updateProduct(req.params.id, req.body);
     if (!product) {
       return res.status(404).json({ error: 'Product not found' });
     }
-    
-    logger.info('Product updated successfully', { 
+
+    logger.info('Product updated successfully', {
       productId: req.params.id,
-      updatedBy: req.user.email 
+      updatedBy: req.user.email
     });
+
+    // Broadcast the updated product list
+    const products = await productService.getAllProducts();
+    broadcastUpdate('product_updated',products);
+
     res.json(product);
   } catch (error) {
-    logger.error('Error updating product', { 
+    logger.error('Error updating product', {
       error: error.message,
       userId: req.user.id,
-      productId: req.params.id 
+      productId: req.params.id
     });
     res.status(500).json({ error: 'Error updating product' });
   }
@@ -94,26 +104,31 @@ async function updateProduct(req, res) {
 
 async function deleteProduct(req, res) {
   try {
-    logger.info('Product deletion attempt', { 
+    logger.info('Product deletion attempt', {
       userId: req.user.id,
-      productId: req.params.id 
+      productId: req.params.id
     });
 
     const result = await productService.deleteProduct(req.params.id);
     if (!result) {
       return res.status(404).json({ error: 'Product not found' });
     }
-    
-    logger.info('Product deleted successfully', { 
+
+    logger.info('Product deleted successfully', {
       productId: req.params.id,
-      deletedBy: req.user.email 
+      deletedBy: req.user.email
     });
+
+    // Broadcast the updated product list
+    const products = await productService.getAllProducts();
+    broadcastUpdate('product_deleted',products);
+
     res.status(204).send();
   } catch (error) {
-    logger.error('Error deleting product', { 
+    logger.error('Error deleting product', {
       error: error.message,
       userId: req.user.id,
-      productId: req.params.id 
+      productId: req.params.id
     });
     res.status(500).json({ error: 'Error deleting product' });
   }

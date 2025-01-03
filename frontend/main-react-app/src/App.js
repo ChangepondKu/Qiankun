@@ -9,35 +9,52 @@ import NotFound from './components/404/NotFound';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const state = useSelector((state) => state);
   const loggedInStatus = sessionStorage.getItem('isLoggedIn');
 
   useEffect(() => {
     if (loggedInStatus === 'true') {
-      try {
-        setIsLoggedIn(true);
-        start({
-          sandbox: { strictStyleIsolation: true },
-          prefetch: 'all',
-          singular: false,
-        });
-      } catch (error) {
-        console.log(error);
-      }
+      setIsLoggedIn(true);
     } else {
       setIsLoggedIn(false);
     }
-
   }, [loggedInStatus]);
+
+  useEffect(() => {
+    if (isLoggedIn) {
+      // Delay the Qiankun start until containers are in the DOM
+      const startMicroFrontends = () => {
+        try {
+          start({
+            sandbox: { strictStyleIsolation: true },
+            prefetch: 'all',
+            singular: false,
+          });
+        } catch (error) {
+          console.error('Qiankun Error:', error);
+        }
+      };
+
+      // Ensure all containers are mounted before starting Qiankun
+      const waitForContainers = () => {
+        const containers = [
+          document.getElementById('micro-app-1-container'),
+          document.getElementById('micro-app-2-container'),
+          document.getElementById('micro-app-3-container'),
+        ];
+        if (containers.every((container) => container !== null)) {
+          startMicroFrontends();
+        } else {
+          setTimeout(waitForContainers, 50); // Retry after a short delay
+        }
+      };
+
+      waitForContainers();
+    }
+  }, [isLoggedIn]);
 
   const handleLoginSuccess = () => {
     setIsLoggedIn(true);
     sessionStorage.setItem('isLoggedIn', 'true');
-    start({
-      sandbox: { strictStyleIsolation: true },
-      prefetch: 'all',
-      singular: false,
-    });
   };
 
   return (
@@ -47,29 +64,22 @@ function App() {
       ) : (
         <div>
           {/* Navbar */}
-          <div id="navbar-container">
-          </div>
+          <div id="navbar-container">Getting things ready...</div>
 
           {/* Main Content */}
           <div id="container">
-            {/* <Routes>
-              <Route path="/" element={<Navigate to="/app1" replace />} />
-            </Routes> */}
             {/* Specific containers for micro-frontends */}
             <div id="micro-app-1-container"></div>
             <div id="micro-app-2-container"></div>
             <div id="micro-app-3-container"></div>
-           
           </div>
 
           {/* Footer */}
-          <div id="footer-container">
-          </div>
+          <div id="footer-container">Footer Content</div>
         </div>
       )}
     </Router>
   );
-
 }
 
 export default App;

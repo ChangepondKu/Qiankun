@@ -1,2 +1,3 @@
+import { host } from "../config/apiConfig";
 
-export const API_URL = 'http://localhost:7878';
+export const API_URL = `http://${host}:7878`;

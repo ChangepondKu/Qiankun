@@ -1,11 +1,14 @@
 require('dotenv').config();
 const express = require('express');
+const http = require('http');
 const authRoutes = require('./routes/authRoutes');
 const productRoutes = require('./routes/productRoutes');
 const logger = require('./config/logger');
 const cors = require('cors');
+const { initWebSocket } = require('./websocket/wsServer');
 
 const app = express();
+const server = http.createServer(app);  
 const PORT = process.env.PORT || 3000;
 const allowedOrigins = [
   'http://localhost:3000',
@@ -14,25 +17,15 @@ const allowedOrigins = [
   'http://localhost:3003',
   'http://localhost:3004',
   'http://localhost:3005',
-  'http://localhost:3010' //for root-app
+  'http://localhost:3010',
+  'http://localhost',//for root-app,
 ]
 
-// CORS middleware configuration
-app.use(cors({
-  origin: function (origin, callback) {
-    // Allow requests with no origin (e.g., mobile apps or curl)
-    if (!origin) return callback(null, true);
+// Initialize WebSocket
+initWebSocket(server);
 
-    if (allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
-}));
+// CORS middleware configuration
+app.use(cors());
 
 // Middleware
 app.use(express.json({limit:'10mb'}));

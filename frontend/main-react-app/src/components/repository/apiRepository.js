@@ -1,4 +1,5 @@
 import axios from "axios";
+import { API_URL } from "../../constants/constant";
 
 /**
  * Validates the user by sending a POST request to the authentication API.
@@ -10,7 +11,7 @@ export const validateUser = async (payload) => {
     try {
         // Send POST request to the API
         const response = await axios.post(
-            `http://localhost:7878/api/auth/login`, // Append endpoint explicitly
+            `${API_URL}/api/auth/login`, // Append endpoint explicitly
             payload,
             {
                 headers: {
@@ -42,7 +43,7 @@ export const validateUser = async (payload) => {
 };
 
 export const registerUser = async (userData) => {
-    const response = await fetch('http://localhost:7878/api/auth/register', {
+    const response = await fetch(`${API_URL}/api/auth/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(userData),

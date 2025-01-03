@@ -933,3 +933,837 @@
 {"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-19T06:09:38.849Z"}
 {"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-19T06:10:08.836Z"}
 {"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-19T06:10:09.223Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-19T13:21:28.740Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-19T13:21:28.984Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-19T13:21:29.924Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-19T13:21:30.099Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-20T06:34:29.277Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-20T06:34:29.321Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-20T06:34:34.361Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-20T06:34:34.915Z"}
+{"error":"jwt expired","level":"error","message":"Token verification failed","timestamp":"2024-12-20T06:34:38.037Z"}
+{"error":"jwt expired","level":"error","message":"Token verification failed","timestamp":"2024-12-20T06:34:38.056Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-20T06:47:30.666Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-20T06:47:31.056Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-20T06:48:47.070Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-20T06:48:47.524Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-20T06:51:29.082Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-20T06:51:29.591Z"}
+{"error":"jwt expired","level":"error","message":"Token verification failed","timestamp":"2024-12-20T06:51:29.738Z"}
+{"error":"jwt expired","level":"error","message":"Token verification failed","timestamp":"2024-12-20T06:51:29.745Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-20T06:51:31.319Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-20T06:51:31.506Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-20T06:57:11.795Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-20T06:57:12.140Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-20T06:57:12.144Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-20T06:57:12.286Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-20T07:09:30.583Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-20T07:09:30.819Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-24T06:37:29.126Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-24T06:37:29.289Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T06:41:06.284Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T06:41:07.232Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T06:41:07.522Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T06:41:07.799Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T06:42:50.410Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T06:42:50.794Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T06:45:52.462Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T06:45:52.887Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T06:48:58.246Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T06:48:59.167Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T06:49:15.247Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T06:49:15.666Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T06:52:41.794Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T06:52:42.164Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T07:03:58.357Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T07:03:58.739Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T09:07:33.340Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T09:07:33.636Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T09:16:09.123Z"}
+{"error":"Invalid password","level":"error","message":"Database error during user validation","timestamp":"2024-12-24T09:16:09.394Z"}
+{"email":"siva@cptech.com","error":"Invalid password","level":"error","message":"Login error","timestamp":"2024-12-24T09:16:09.396Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T09:16:13.886Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T09:16:14.003Z"}
+{"email":"thamarai@cptech.com","level":"info","message":"Registration attempt","timestamp":"2024-12-24T09:17:19.900Z"}
+{"email":"thamarai@cptech.com","level":"info","message":"Registration successful","timestamp":"2024-12-24T09:17:20.106Z"}
+{"email":"thamarai@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T09:17:50.508Z"}
+{"email":"thamarai@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T09:17:50.711Z"}
+{"level":"info","message":"Product update attempt","productId":"2","timestamp":"2024-12-24T09:22:38.400Z"}
+{"level":"info","message":"Product updated successfully","productId":"2","timestamp":"2024-12-24T09:22:38.512Z","updatedBy":"thamarai@cptech.com"}
+{"email":"thamarai@cptech.com","level":"info","message":"Product creation attempt","timestamp":"2024-12-24T09:24:11.891Z"}
+{"createdBy":"thamarai@cptech.com","level":"info","message":"Product created successfully","productId":51,"timestamp":"2024-12-24T09:24:12.010Z"}
+{"email":"thamarai@cptech.com","level":"info","message":"Product creation attempt","timestamp":"2024-12-24T09:24:19.112Z"}
+{"createdBy":"thamarai@cptech.com","level":"info","message":"Product created successfully","productId":52,"timestamp":"2024-12-24T09:24:19.116Z"}
+{"email":"thamarai@cptech.com","level":"info","message":"Product creation attempt","timestamp":"2024-12-24T09:24:28.592Z"}
+{"createdBy":"thamarai@cptech.com","level":"info","message":"Product created successfully","productId":53,"timestamp":"2024-12-24T09:24:28.596Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T09:29:04.662Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T09:29:04.915Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T09:29:10.001Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T09:29:10.089Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T09:29:14.262Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T09:29:14.355Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T11:26:59.644Z"}
+{"error":"Invalid password","level":"error","message":"Database error during user validation","timestamp":"2024-12-24T11:27:00.089Z"}
+{"email":"siva@cptech.com","error":"Invalid password","level":"error","message":"Login error","timestamp":"2024-12-24T11:27:00.090Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T11:27:06.489Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T11:27:06.693Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-24T11:43:33.633Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-24T11:43:34.013Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-26T06:04:45.177Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-26T06:04:45.204Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:04:49.328Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:04:49.583Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:40:34.463Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:40:34.977Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:43:07.822Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:43:08.278Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:44:17.920Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:44:18.336Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:44:18.975Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:44:19.185Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:46:23.569Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:46:23.910Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:46:35.021Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:46:35.194Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:56:07.509Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:56:07.898Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T06:56:25.538Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T06:56:25.977Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:04:45.282Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:04:45.786Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:06:07.741Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:06:08.126Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:10:46.137Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:10:46.349Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:10:49.412Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:10:49.545Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:14:49.851Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:14:50.111Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:18:04.796Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:18:05.026Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:19:25.419Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:19:25.718Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:33:17.664Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:33:17.927Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:36:57.299Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:36:57.543Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:40:26.137Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:40:26.351Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:43:14.680Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:43:14.890Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T07:47:05.550Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T07:47:05.732Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T10:59:05.347Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T10:59:05.685Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T11:06:33.637Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T11:06:33.875Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T11:06:53.393Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T11:06:53.611Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T11:11:21.627Z"}
+{"error":"Invalid password","level":"error","message":"Database error during user validation","timestamp":"2024-12-26T11:11:21.803Z"}
+{"email":"siva@cptech.com","error":"Invalid password","level":"error","message":"Login error","timestamp":"2024-12-26T11:11:21.804Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T11:11:39.989Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T11:11:40.182Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T11:11:40.950Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T11:11:41.060Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T11:13:42.627Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T11:13:42.801Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T11:13:43.822Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T11:13:44.084Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-26T11:24:23.002Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-26T11:24:23.219Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-27T05:35:16.156Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-27T05:35:16.446Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:05:50.656Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:05:51.177Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:08:54.351Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:11:13.181Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:12:38.157Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:12:53.417Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:13:37.016Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:14:48.709Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:14:49.110Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:14:51.728Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:25:09.234Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:25:09.697Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:25:12.470Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:27:39.595Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:27:40.028Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:27:42.873Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:28:46.572Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:28:46.972Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:28:49.860Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:30:42.216Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:30:42.585Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:30:45.142Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:32:42.516Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:32:42.887Z"}
+{"error":"jwt malformed","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:32:45.443Z"}
+{"error":"invalid token","level":"error","message":"Token verification failed","timestamp":"2024-12-27T06:35:36.464Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:37:49.592Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:37:49.964Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:45:34.599Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:45:35.040Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T06:48:06.182Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T06:48:06.606Z"}
+{"level":"info","message":"Product update attempt","productId":"53","timestamp":"2024-12-27T06:48:40.975Z"}
+{"level":"info","message":"Product updated successfully","productId":"53","timestamp":"2024-12-27T06:48:41.230Z","updatedBy":"sundar@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-27T07:00:49.177Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-27T07:00:49.209Z"}
+{"error":"jwt expired","level":"error","message":"Token verification failed","timestamp":"2024-12-27T07:06:40.882Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-27T07:07:39.361Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-27T07:07:39.512Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-27T07:09:20.433Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-27T07:09:20.446Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-27T07:09:44.267Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-27T07:09:44.395Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-27T07:10:48.171Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-27T07:10:48.305Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T07:16:42.100Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T07:16:42.345Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-27T09:11:20.109Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-27T09:11:20.384Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-30T04:46:34.946Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-30T04:46:34.990Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T04:52:20.559Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T04:52:21.544Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T04:54:45.560Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T04:54:46.010Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:30:27.599Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:30:27.808Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:30:28.192Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:30:28.293Z"}
+{"level":"info","message":"Product update attempt","productId":"53","timestamp":"2024-12-30T05:31:24.988Z"}
+{"level":"info","message":"Product updated successfully","productId":"53","timestamp":"2024-12-30T05:31:25.124Z","updatedBy":"sundar@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"53","timestamp":"2024-12-30T05:33:00.183Z"}
+{"level":"info","message":"Product updated successfully","productId":"53","timestamp":"2024-12-30T05:33:00.291Z","updatedBy":"sundar@cptech.com"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:33:57.208Z"}
+{"error":"Invalid password","level":"error","message":"Database error during user validation","timestamp":"2024-12-30T05:33:57.448Z"}
+{"email":"siva@cptech.com","error":"Invalid password","level":"error","message":"Login error","timestamp":"2024-12-30T05:33:57.449Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:34:04.356Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:34:04.482Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:34:10.548Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:34:10.645Z"}
+{"level":"info","message":"Product update attempt","productId":"53","timestamp":"2024-12-30T05:34:32.980Z"}
+{"level":"info","message":"Product updated successfully","productId":"53","timestamp":"2024-12-30T05:34:32.987Z","updatedBy":"sundar@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"53","timestamp":"2024-12-30T05:34:50.042Z"}
+{"level":"info","message":"Product updated successfully","productId":"53","timestamp":"2024-12-30T05:34:50.154Z","updatedBy":"sundar@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"52","timestamp":"2024-12-30T05:35:21.757Z"}
+{"level":"info","message":"Product updated successfully","productId":"52","timestamp":"2024-12-30T05:35:21.878Z","updatedBy":"sundar@cptech.com"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:41:43.035Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:41:43.212Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:41:55.447Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:41:55.624Z"}
+{"level":"info","message":"Product update attempt","productId":"51","timestamp":"2024-12-30T05:42:47.719Z"}
+{"level":"info","message":"Product updated successfully","productId":"51","timestamp":"2024-12-30T05:42:47.833Z","updatedBy":"sundar@cptech.com"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:47:33.242Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:47:33.433Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:47:53.735Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:47:53.976Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T05:49:04.837Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T05:49:05.055Z"}
+{"error":"jwt expired","level":"error","message":"Token verification failed","timestamp":"2024-12-30T06:00:01.094Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T06:07:19.370Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T06:07:19.411Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T06:07:57.496Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T06:07:57.711Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T06:08:06.964Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T06:08:06.970Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T06:08:17.265Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T06:08:17.374Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T06:21:12.222Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T06:21:12.440Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T06:21:28.053Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T06:21:28.168Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T06:28:55.706Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T06:28:55.941Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:24:24.673Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:24:24.963Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:24:46.999Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:24:47.203Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:25:29.468Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:25:29.784Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:25:55.193Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:25:55.324Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:26:08.685Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:26:08.688Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:27:12.947Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:27:13.047Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:29:38.591Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:29:38.781Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:29:57.062Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:29:57.245Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:30:50.785Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:30:50.958Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:31:18.306Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:31:18.409Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:32:05.303Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:32:05.402Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:32:50.345Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:32:50.353Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:33:14.158Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:33:14.258Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:45:12.034Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:45:12.238Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:45:27.640Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:45:27.853Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:45:48.949Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:45:49.050Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:46:10.149Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:46:10.257Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:47:31.722Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:47:31.926Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:48:02.365Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:48:02.493Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:48:41.534Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:48:41.853Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:49:37.067Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:49:37.171Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-30T09:52:20.283Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-30T09:52:20.299Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:53:49.303Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:53:49.552Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:54:18.850Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:54:18.980Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-30T09:55:55.622Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-30T09:55:55.636Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:56:17.805Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:56:18.129Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:56:31.218Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:56:31.324Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:56:48.953Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:56:49.054Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-30T09:57:57.349Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-30T09:57:57.364Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-30T09:58:24.901Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-30T09:58:24.913Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T09:58:50.592Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T09:58:50.818Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T09:59:07.370Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T09:59:07.484Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-30T10:01:36.996Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-30T10:01:37.008Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:02:24.184Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:02:24.327Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:03:54.255Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:03:54.376Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:04:23.121Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:04:23.241Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:05:20.301Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:05:20.443Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:05:40.782Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:05:40.901Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:06:18.664Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:06:18.675Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:07:41.248Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:07:41.265Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T10:09:09.980Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T10:09:10.216Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-30T10:09:39.309Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-30T10:09:39.523Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:12:56.706Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:12:56.824Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:24:31.038Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:24:31.149Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-30T10:26:01.640Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-30T10:26:01.746Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2024-12-31T05:24:49.502Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2024-12-31T05:24:49.791Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:30:08.979Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:30:10.584Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:31:14.636Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:31:15.350Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:44:54.777Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:44:55.238Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:45:47.471Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:45:47.942Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:48:41.297Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:48:41.676Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:49:54.163Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:49:54.528Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:51:18.967Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:51:19.345Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:57:41.687Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:57:42.090Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T05:58:49.300Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T05:58:49.678Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-31T05:59:09.985Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-31T05:59:10.288Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-31T05:59:39.948Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-31T05:59:40.160Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:04:09.522Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:04:09.924Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:04:46.679Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:04:47.079Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:05:14.453Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:05:14.817Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:11:30.160Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:11:30.541Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:13:38.099Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:13:38.491Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:14:45.322Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:14:45.705Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:17:51.361Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:17:51.737Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:18:23.675Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:18:24.057Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:19:34.187Z"}
+{"error":"Invalid password","level":"error","message":"Database error during user validation","timestamp":"2024-12-31T06:19:34.565Z"}
+{"email":"muthu@cptech.com","error":"Invalid password","level":"error","message":"Login error","timestamp":"2024-12-31T06:19:34.566Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:19:39.736Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:19:39.863Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:19:47.441Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:19:47.607Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:21:08.416Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:21:08.829Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:21:35.936Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:21:36.417Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:41:42.582Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:41:42.825Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:44:00.128Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:44:00.302Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:44:32.486Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:44:32.660Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:45:45.175Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:45:45.346Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:46:16.399Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:46:16.574Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:51:27.489Z"}
+{"error":"Invalid password","level":"error","message":"Database error during user validation","timestamp":"2024-12-31T06:51:27.661Z"}
+{"email":"sundar@cptech.com","error":"Invalid password","level":"error","message":"Login error","timestamp":"2024-12-31T06:51:27.661Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2024-12-31T06:51:31.589Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2024-12-31T06:51:31.673Z"}
+{"email":"muthu@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-31T07:00:38.370Z"}
+{"email":"muthu@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-31T07:00:38.501Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update attempt","timestamp":"2024-12-31T07:01:03.194Z"}
+{"email":"sundar@cptech.com","level":"info","message":"User update successful","timestamp":"2024-12-31T07:01:03.309Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T04:24:51.775Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T04:24:51.812Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T05:16:49.239Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T05:16:49.579Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2025-01-01T05:17:04.854Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2025-01-01T05:17:05.007Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T05:17:18.890Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T05:17:19.235Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T05:29:10.028Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T05:29:10.272Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T05:53:31.634Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T05:53:31.649Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T07:17:07.794Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T07:17:07.806Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T07:24:38.265Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T07:24:38.277Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T09:15:28.192Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T09:15:28.396Z"}
+{"error":"jwt expired","level":"error","message":"Token verification failed","timestamp":"2025-01-01T09:20:30.056Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T09:24:50.329Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T09:24:50.540Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T09:26:34.384Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T09:26:34.570Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T09:28:15.146Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T09:28:15.348Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T09:28:54.891Z"}
+{"email":"sundar@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T09:28:55.094Z"}
+{"level":"info","message":"Product deletion attempt","productId":"53","timestamp":"2025-01-01T09:29:15.958Z"}
+{"deletedBy":"siva@cptech.com","level":"info","message":"Product deleted successfully","productId":"53","timestamp":"2025-01-01T09:29:16.047Z"}
+{"level":"info","message":"Product deletion attempt","productId":"53","timestamp":"2025-01-01T09:29:36.330Z"}
+{"level":"info","message":"Product deletion attempt","productId":"52","timestamp":"2025-01-01T09:32:29.039Z"}
+{"deletedBy":"siva@cptech.com","level":"info","message":"Product deleted successfully","productId":"52","timestamp":"2025-01-01T09:32:29.047Z"}
+{"level":"info","message":"Product deletion attempt","productId":"52","timestamp":"2025-01-01T09:32:53.982Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T09:33:10.437Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Database error while updating product","timestamp":"2025-01-01T09:33:10.445Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-01T09:33:10.446Z"}
+{"level":"info","message":"Product update attempt","productId":"51","timestamp":"2025-01-01T09:36:56.222Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Database error while updating product","timestamp":"2025-01-01T09:36:56.306Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Error updating product","productId":"51","timestamp":"2025-01-01T09:36:56.306Z"}
+{"body":"{\r\n    \"id\": 51,\r\n    \"name\": \"4K Ultra HD Monitor\",\r\n    \"description\": \"27-inch 4K monitor with HDR support and ultra-thin bezels, perfect for coding and multitasking.\",\r\n    \"price\": \"299.00\",\r\n    \"stock\": 29,\r\n    \"category\": \"Monitors\",\r\n    \"image_url\": \"https://images.unsplash.com/photo-1498050108023-c5249f4df085\",\r\n}","expose":true,"level":"error","message":"Unhandled error: Expected double-quoted property name in JSON at position 326","stack":"SyntaxError: Expected double-quoted property name in JSON at position 326\n    at JSON.parse (<anonymous>)\n    at parse (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","status":400,"statusCode":400,"timestamp":"2025-01-01T09:37:16.664Z","type":"entity.parse.failed"}
+{"body":"{\r\n    \"name\": \"4K Ultra HD Monitor\",\r\n    \"description\": \"27-inch 4K monitor with HDR support and ultra-thin bezels, perfect for coding and multitasking.\",\r\n    \"price\": \"299.00\",\r\n    \"stock\": 29,\r\n    \"category\": \"Monitors\",\r\n    \"image_url\": \"https://images.unsplash.com/photo-1498050108023-c5249f4df085\",\r\n}","expose":true,"level":"error","message":"Unhandled error: Expected double-quoted property name in JSON at position 311","stack":"SyntaxError: Expected double-quoted property name in JSON at position 311\n    at JSON.parse (<anonymous>)\n    at parse (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","status":400,"statusCode":400,"timestamp":"2025-01-01T09:37:24.764Z","type":"entity.parse.failed"}
+{"level":"info","message":"Product update attempt","productId":"51","timestamp":"2025-01-01T09:41:13.153Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Database error while updating product","timestamp":"2025-01-01T09:41:13.158Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Error updating product","productId":"51","timestamp":"2025-01-01T09:41:13.159Z"}
+{"level":"info","message":"Product update attempt","productId":"51","timestamp":"2025-01-01T09:44:20.124Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Database error while updating product","timestamp":"2025-01-01T09:44:20.128Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Error updating product","productId":"51","timestamp":"2025-01-01T09:44:20.129Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T09:44:53.290Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Database error while updating product","timestamp":"2025-01-01T09:44:53.294Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-01T09:44:53.294Z"}
+{"level":"info","message":"Product update attempt","productId":"51","timestamp":"2025-01-01T09:45:51.982Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Database error while updating product","timestamp":"2025-01-01T09:45:52.071Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Error updating product","productId":"51","timestamp":"2025-01-01T09:45:52.072Z"}
+{"level":"info","message":"Product update attempt","productId":"51","timestamp":"2025-01-01T09:50:43.486Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Database error while updating product","timestamp":"2025-01-01T09:50:43.491Z"}
+{"error":"updatedProduct is not defined","level":"error","message":"Error updating product","productId":"51","timestamp":"2025-01-01T09:50:43.492Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T09:51:22.877Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T09:51:22.891Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T09:51:29.741Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T09:51:29.752Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T09:51:41.228Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T09:51:41.234Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T09:52:54.737Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T09:52:54.821Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T09:53:23.959Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T09:53:24.069Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T09:54:32.312Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T09:54:32.317Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T09:54:34.117Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T09:54:34.120Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T09:54:45.538Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T09:54:45.629Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T10:00:00.233Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T10:00:00.247Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:28:22)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-01T10:00:06.654Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:28:22)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-01T10:00:11.789Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T10:00:32.345Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T10:00:32.357Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T10:00:40.857Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T10:00:40.864Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T10:05:35.527Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T10:05:35.541Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-01T10:06:07.406Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-01T10:06:07.634Z"}
+{"level":"info","message":"Product update attempt","productId":"51","timestamp":"2025-01-01T10:12:23.011Z"}
+{"level":"info","message":"Product updated successfully","productId":"51","timestamp":"2025-01-01T10:12:23.104Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T10:12:40.062Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T10:12:40.159Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T10:12:43.881Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T10:12:43.886Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T10:14:24.738Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T10:14:24.749Z"}
+{"level":"info","message":"Product deletion attempt","productId":"51","timestamp":"2025-01-01T10:15:35.277Z"}
+{"deletedBy":"siva@cptech.com","level":"info","message":"Product deleted successfully","productId":"51","timestamp":"2025-01-01T10:15:35.363Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T10:15:38.780Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T10:15:38.785Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"8","timestamp":"2025-01-01T10:15:45.355Z"}
+{"level":"info","message":"Product updated successfully","productId":"8","timestamp":"2025-01-01T10:15:45.360Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T10:26:17.644Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T10:26:17.654Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:30:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-01T10:27:02.235Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T10:28:39.584Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T10:28:39.595Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T11:08:53.051Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T11:08:53.058Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-01T11:09:21.829Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-01T11:09:21.904Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-01T11:15:49.704Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-01T11:15:49.717Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:16:21.051Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:16:21.072Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T05:16:37.811Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T05:16:38.205Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T05:17:35.926Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T05:17:36.287Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:23:47.512Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:23:47.534Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:24:41.225Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:24:41.248Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:25:52.302Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:25:52.328Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:26:20.798Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T05:26:20.964Z","updatedBy":"siva@cptech.com"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T05:26:41.431Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T05:26:41.739Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:27:01.094Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T05:27:01.275Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:27:26.019Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T05:27:26.200Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:34:55.774Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:34:55.794Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:35:30.541Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T05:35:30.704Z","updatedBy":"muthu@cptech.com"}
+{"error":"broadcastProductUpdate is not a function","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T05:35:30.709Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:37:39.826Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:37:39.847Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:38:09.963Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T05:38:10.120Z","updatedBy":"muthu@cptech.com"}
+{"error":"wsServer is not defined","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T05:38:10.123Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:43:00.088Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:43:00.113Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:43:38.932Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T05:43:38.954Z","updatedBy":"siva@cptech.com"}
+{"error":"Cannot read properties of undefined (reading 'clients')","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T05:43:38.958Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:45:03.954Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:45:03.973Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:45:59.401Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:45:59.423Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:46:30.497Z"}
+{"error":"broadcastUpdate is not defined","level":"error","message":"Database error while updating product","timestamp":"2025-01-02T05:46:30.672Z"}
+{"error":"broadcastUpdate is not defined","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T05:46:30.673Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:48:12.053Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:48:12.072Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:48:49.598Z"}
+{"error":"broadcastProductUpdate is not a function","level":"error","message":"Database error while updating product","timestamp":"2025-01-02T05:48:49.769Z"}
+{"error":"broadcastProductUpdate is not a function","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T05:48:49.771Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T05:50:01.448Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T05:50:01.471Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T05:50:28.372Z"}
+{"error":"broadcastProductUpdate is not a function","level":"error","message":"Database error while updating product","timestamp":"2025-01-02T05:50:28.537Z"}
+{"error":"broadcastProductUpdate is not a function","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T05:50:28.539Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T06:01:48.249Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T06:01:48.268Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:02:14.488Z"}
+{"error":"broadcastProductUpdate is not a function","level":"error","message":"Database error while updating product","timestamp":"2025-01-02T06:02:14.654Z"}
+{"error":"broadcastProductUpdate is not a function","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T06:02:14.656Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T06:11:12.989Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T06:11:13.011Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:11:27.523Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:11:28.992Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:12:18.544Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T06:13:14.924Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T06:13:15.209Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:13:17.270Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T06:13:27.737Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T06:13:28.000Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:13:29.560Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:13:30.907Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:13:32.694Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T06:14:26.580Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T06:14:26.604Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:16:12.024Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T06:17:05.701Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T06:17:06.124Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:17:08.231Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:17:10.258Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:17:20.127Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:17:57.807Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T06:20:08.047Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T06:20:08.067Z"}
+{"error":"Cannot read properties of undefined (reading 'user')","level":"error","message":"Error fetching products","timestamp":"2025-01-02T06:20:21.165Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T06:21:54.927Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T06:21:54.951Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:22:21.745Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:22:21.919Z","updatedBy":"muthu@cptech.com"}
+{"error":"Cannot read properties of undefined (reading 'clients')","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T06:22:21.923Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T06:30:04.129Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T06:30:04.148Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:30:28.035Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:30:28.200Z","updatedBy":"muthu@cptech.com"}
+{"error":"Cannot read properties of undefined (reading 'clients')","level":"error","message":"Error updating product","productId":"16","timestamp":"2025-01-02T06:30:28.205Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T06:34:25.608Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T06:34:25.632Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:34:46.738Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:34:46.890Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:36:12.974Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:36:13.157Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:45:40.469Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:45:40.633Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:47:14.109Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:47:14.290Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:48:02.411Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:48:02.576Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T06:49:49.333Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T06:49:49.352Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:52:06.055Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:52:06.214Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:52:47.768Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:52:47.939Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:53:30.724Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:53:30.894Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"8","timestamp":"2025-01-02T06:54:03.765Z"}
+{"level":"info","message":"Product updated successfully","productId":"8","timestamp":"2025-01-02T06:54:03.945Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:55:07.891Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:55:08.087Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:56:11.324Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:56:11.492Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:59:39.465Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:59:39.559Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T06:59:58.416Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T06:59:58.511Z","updatedBy":"siva@cptech.com"}
+{"email":"siva@cptech.com","level":"info","message":"Product creation attempt","timestamp":"2025-01-02T07:08:11.487Z"}
+{"createdBy":"siva@cptech.com","level":"info","message":"Product created successfully","productId":54,"timestamp":"2025-01-02T07:08:11.579Z"}
+{"level":"info","message":"Product deletion attempt","productId":"54","timestamp":"2025-01-02T07:08:23.753Z"}
+{"deletedBy":"muthu@cptech.com","level":"info","message":"Product deleted successfully","productId":"54","timestamp":"2025-01-02T07:08:23.854Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T07:33:15.238Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T07:33:15.249Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T07:33:48.956Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T07:33:49.043Z","updatedBy":"muthu@cptech.com"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T09:20:45.334Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T09:20:45.586Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T09:21:06.137Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T09:21:06.329Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T09:21:28.388Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T09:21:28.475Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T09:29:20.225Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T09:29:20.313Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T09:34:13.933Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T09:34:13.958Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T09:34:47.141Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T09:34:47.539Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T09:34:50.679Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T09:34:50.785Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T09:34:58.051Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T09:34:58.139Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T09:37:37.057Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T09:37:37.451Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T09:40:06.136Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T09:40:06.516Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T09:42:43.066Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T09:42:43.081Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T09:46:29.725Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T09:46:29.736Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T09:48:57.481Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T09:48:57.492Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T09:52:06.958Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T09:52:06.970Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T09:52:58.946Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T09:52:58.956Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T09:55:47.994Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T09:55:48.004Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T09:58:03.205Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T09:58:03.216Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:02:46.864Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:02:46.875Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:03:02.711Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:03:02.723Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:06:00.977Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:06:00.987Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:06:43.955Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:06:43.966Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:08:10.819Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:08:10.831Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:12:18.271Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:12:18.490Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:15:09.164Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:15:09.330Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:19:43.545Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:19:43.557Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:20:13.945Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:20:14.177Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:36:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:20:36.242Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:36:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:20:46.960Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:36:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:21:13.137Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:36:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:21:18.429Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:22:02.251Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:22:02.441Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:22:45.152Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:22:45.165Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:37:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:22:52.246Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:37:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:22:53.617Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:37:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:22:55.056Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:23:11.102Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:23:11.309Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:37:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:23:21.864Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:24:03.222Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:24:03.421Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:24:52.938Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:24:53.145Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:26:23.463Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:26:23.621Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:26:46.640Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:26:46.847Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:28:51.043Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:28:51.264Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:30:08.133Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:30:08.146Z"}
+{"level":"error","message":"Unhandled error: Not allowed by CORS","stack":"Error: Not allowed by CORS\n    at origin (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\src\\server.js:37:16)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:219:13\n    at optionsCallback (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:199:9)\n    at corsMiddleware (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\cors\\lib\\index.js:204:7)\n    at Layer.handle [as handle_request] (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (D:\\Single_Page_Application\\SPA_DataSharing_Redux\\Bolt_backend\\project\\node_modules\\express\\lib\\middleware\\init.js:40:5)","timestamp":"2025-01-02T10:30:20.554Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T10:31:04.498Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T10:31:04.509Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:31:37.650Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:31:37.880Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:31:44.704Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:31:44.812Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:34:34.244Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:34:34.459Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:35:53.169Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:35:53.540Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:35:54.094Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:35:54.226Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:36:19.818Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:36:19.979Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:47:51.574Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:47:51.875Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:48:07.786Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:48:07.963Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:50:58.316Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:50:58.526Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:52:43.412Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:52:43.748Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T10:52:53.259Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T10:52:53.348Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:02:26.599Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:02:26.803Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:03:15.996Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:03:16.172Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:04:25.541Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:04:25.702Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:04:48.420Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:04:48.632Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T11:05:07.034Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T11:05:07.156Z","updatedBy":"muthu@cptech.com"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:17:04.302Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:17:04.463Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:27:58.812Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:27:59.441Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:28:00.679Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:28:00.854Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:28:45.905Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:28:46.120Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update attempt","timestamp":"2025-01-02T11:29:27.869Z"}
+{"email":"siva@cptech.com","level":"info","message":"User update successful","timestamp":"2025-01-02T11:29:27.887Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-02T11:31:25.996Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-02T11:31:26.216Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-02T11:33:22.934Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-02T11:33:23.029Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"8","timestamp":"2025-01-02T11:33:32.328Z"}
+{"level":"info","message":"Product updated successfully","productId":"8","timestamp":"2025-01-02T11:33:32.334Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"7","timestamp":"2025-01-02T11:33:53.721Z"}
+{"level":"info","message":"Product updated successfully","productId":"7","timestamp":"2025-01-02T11:33:53.830Z","updatedBy":"muthu@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-02T13:12:57.321Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-02T13:12:57.375Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-03T02:53:58.175Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-03T02:53:58.204Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T02:56:49.553Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T02:56:50.142Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T02:59:56.525Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T02:59:56.888Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T03:00:14.278Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T03:00:14.534Z","updatedBy":"siva@cptech.com"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T03:00:56.167Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T03:00:56.538Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T03:07:12.508Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T03:07:13.094Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T03:07:58.560Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T03:07:58.853Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T03:10:37.998Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T03:10:38.307Z"}
+{"level":"info","message":"Product update attempt","productId":"8","timestamp":"2025-01-03T03:11:25.970Z"}
+{"level":"info","message":"Product updated successfully","productId":"8","timestamp":"2025-01-03T03:11:26.192Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"5","timestamp":"2025-01-03T03:11:53.281Z"}
+{"level":"info","message":"Product updated successfully","productId":"5","timestamp":"2025-01-03T03:11:53.467Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-03T05:57:04.504Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-03T05:57:04.522Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T05:57:11.859Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T05:57:11.992Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T05:58:21.965Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T05:58:22.103Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T05:58:35.916Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T05:58:35.919Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-03T06:04:47.486Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-03T06:04:47.502Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-03T06:05:23.147Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-03T06:05:23.160Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","timestamp":"2025-01-03T06:06:45.450Z"}
+{"level":"info","message":"Database tables initialized successfully","timestamp":"2025-01-03T06:06:45.465Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T06:07:00.711Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T06:07:20.798Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T06:08:09.645Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T06:08:37.627Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T06:08:51.965Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T06:09:00.459Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T06:20:01.361Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T06:20:21.443Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T06:20:49.293Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T06:20:49.302Z","updatedBy":"siva@cptech.com"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T06:54:47.972Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T06:54:48.380Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T06:55:11.095Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T06:55:11.343Z","updatedBy":"siva@cptech.com"}
+{"level":"info","message":"Product deletion attempt","productId":"2","timestamp":"2025-01-03T06:55:24.578Z"}
+{"deletedBy":"siva@cptech.com","level":"info","message":"Product deleted successfully","productId":"2","timestamp":"2025-01-03T06:55:24.718Z"}
+{"level":"info","message":"Product update attempt","productId":"5","timestamp":"2025-01-03T06:56:05.897Z"}
+{"level":"info","message":"Product updated successfully","productId":"5","timestamp":"2025-01-03T06:56:06.030Z","updatedBy":"siva@cptech.com"}
+{"email":"siva@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T10:21:58.825Z"}
+{"email":"siva@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T10:21:59.207Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login attempt","timestamp":"2025-01-03T10:22:54.840Z"}
+{"email":"muthu@cptech.com","level":"info","message":"Login successful","timestamp":"2025-01-03T10:22:55.153Z"}
+{"level":"info","message":"Product update attempt","productId":"16","timestamp":"2025-01-03T10:23:24.931Z"}
+{"level":"info","message":"Product updated successfully","productId":"16","timestamp":"2025-01-03T10:23:25.072Z","updatedBy":"siva@cptech.com"}

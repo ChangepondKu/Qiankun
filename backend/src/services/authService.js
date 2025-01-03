@@ -74,13 +74,6 @@ async function updateUserDetails(email, updateData) {
       paramCount++
     }
 
-    // if (updateData.password) {
-    //   const hashedPassword = await bcrypt.hash(updateData.password, 10);
-    //   updates.push(`password = $${paramCount}`);
-    //   values.push(hashedPassword);
-    //   paramCount++;
-    // }
-
     if (updates.length === 0) {
       throw new Error('No valid update data provided');
     }

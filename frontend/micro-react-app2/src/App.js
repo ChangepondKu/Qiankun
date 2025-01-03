@@ -8,6 +8,7 @@ import AboutUsPage from './components/aboutus/AboutUsPage';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Cookies from 'js-cookie';
+import { ProductList } from './components/product/ProductList';
 
 function App({user}) {
   const dispatch=useDispatch();
@@ -18,6 +19,9 @@ function App({user}) {
     }
   },[])
   return (
+    // <>
+    // <ProductList/>
+    // </>
     <Router>
     <div className="App">
       <Routes>

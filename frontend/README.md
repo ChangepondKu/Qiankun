@@ -85,11 +85,11 @@ npm run start:all
 This will use the `concurrently` package to start all applications simultaneously. Each application will run on its configured port (default configuration below):
 
 - **Main App:** `http://localhost:3010`
-- **Micro App 1:** `http://localhost:3001`
-- **Micro App 2:** `http://localhost:3002`
-- **Micro App 3:** `http://localhost:3003`
-- **Navbar App:** `http://localhost:3004`
-- **Footer App:** `http://localhost:3005`
+- **Micro App 1:** `http://localhost:3011`
+- **Micro App 2:** `http://localhost:3012`
+- **Micro App 3:** `http://localhost:3013`
+- **Navbar App:** `http://localhost:3014`
+- **Footer App:** `http://localhost:3015`
 
 ## How It Works
 

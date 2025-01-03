@@ -56,8 +56,9 @@ export const LoginPage = ({ handleLoginSuccess }) => {
                 const response = await validateUser({ email, password });
                 if (response?.message === 'Login successful') {
                     if (rememberMe) {
-                        localStorage.setItem('email', email); // Save email for remember me functionality
+                        sessionStorage.setItem('email', email); // Save email for remember me functionality
                     }
+                    sessionStorage.setItem('token',response?.token)
                     // Cookies.set('authToken', JSON.stringify(response?.token), { expires: response?.exp_hr / 24 })
                     handleLoginSuccess();
                     dispatch({ type: 'LOGIN_SUCCESS', payload: response });

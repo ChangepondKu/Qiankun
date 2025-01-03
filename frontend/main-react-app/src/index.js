@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { addGlobalUncaughtErrorHandler, registerMicroApps } from 'qiankun';
-import actions from './state';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
@@ -31,51 +30,50 @@ registerMicroApps([
   {
     name: 'micro-app-3',
     entry: '//localhost:3003',
-    container: '#micro-app-1-container',
+    container: '#micro-app-3-container', // Corrected container ID
     activeRule: '/app3',
     props: { store },
-    loader:(loading)=>{
-      console.log(`micro-app3 app is ${loading ? 'App is Not responding' : 'loaded'}`);
-    }
+    loader: (loading) => {
+      console.log(`Micro-app-3 is ${loading ? 'loading...' : 'loaded'}`);
+    },
   },
   {
     name: 'navbar-app',
     entry: '//localhost:3004',
     container: '#navbar-container',
-    activeRule: () => true,
+    activeRule: () => true, // Navbar is always active
     props: { store },
     loader: (loading) => {
-      console.log(`Navbar app is ${loading ? 'loading' : 'loaded'}`);
+      console.log(`Navbar app is ${loading ? 'loading...' : 'loaded'}`);
     },
   },
   {
     name: 'footer-app',
     entry: '//localhost:3005',
     container: '#footer-container',
-    activeRule: () => true,
+    activeRule: () => true, // Footer is always active
     props: { store },
     loader: (loading) => {
-      console.log(`Footer app is ${loading ? 'loading' : 'loaded'}`);
+      console.log(`Footer app is ${loading ? 'loading...' : 'loaded'}`);
     },
   },
 ]);
 
-
-
 // Qiankun uncaught error handler
 addGlobalUncaughtErrorHandler((event) => {
- if(event?.error?.message.includes("Failed to Fetch")){
-  console.log();
- }
+  if (event?.message?.includes('Failed to fetch')) {
+    console.error('Failed to load micro-app:', event.message);
+  }
 });
-
 
 // React app initialization
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
-    <ErrorBoundary>
-    <App />
-    </ErrorBoundary>
-  </Provider>
+  <React.StrictMode>
+    <Provider store={store}>
+      <ErrorBoundary>
+        <App />
+      </ErrorBoundary>
+    </Provider>
+  </React.StrictMode>
 );
